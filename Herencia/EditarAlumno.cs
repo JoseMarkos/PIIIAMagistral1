@@ -12,9 +12,18 @@ namespace Herencia
 {
     public partial class EditarAlumno : Form
     {
-        public EditarAlumno()
+
+        private FormPrincipal frmPrincipal { get; set; }
+
+        public EditarAlumno(FormPrincipal form)
         {
+            frmPrincipal = form;
             InitializeComponent();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,9 +12,17 @@ namespace Herencia
 {
     public partial class BuscarAlumno : Form
     {
-        public BuscarAlumno()
+        private FormPrincipal frmPrincipal { get; set; }
+
+        public BuscarAlumno(FormPrincipal form)
         {
+            frmPrincipal = form;
             InitializeComponent();
+        }
+
+        private void btnBuscar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

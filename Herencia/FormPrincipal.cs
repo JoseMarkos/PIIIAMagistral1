@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace Herencia
 {
-    public partial class Form1 : Form
+    public partial class FormPrincipal : Form
     {
-        public Form1()
+        public FormPrincipal()
         {
             InitializeComponent();
         }
 
         private void agregarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (var agregar = new AgragarAlumno())
+            using (var agregar = new AgragarAlumno(this))
             {
                 agregar.ShowDialog();
             }
@@ -27,7 +27,7 @@ namespace Herencia
 
         private void buscarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (var buscar = new BuscarAlumno())
+            using (var buscar = new BuscarAlumno(this))
             {
                 buscar.ShowDialog();
             }
@@ -35,7 +35,7 @@ namespace Herencia
 
         private void editarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            using (var editar = new EditarAlumno())
+            using (var editar = new EditarAlumno(this))
             {
                 editar.ShowDialog();
             }
