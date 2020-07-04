@@ -32,5 +32,13 @@ namespace Herencia
                 buscar.ShowDialog();
             }
         }
+
+        private void editarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (var editar = new EditarAlumno())
+            {
+                editar.ShowDialog();
+            }
+        }
     }
 }

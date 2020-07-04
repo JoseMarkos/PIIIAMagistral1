@@ -59,6 +59,12 @@
     <Compile Include="BuscarAlumno.Designer.cs">
       <DependentUpon>BuscarAlumno.cs</DependentUpon>
     </Compile>
+    <Compile Include="EditarAlumno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAlumno.Designer.cs">
+      <DependentUpon>EditarAlumno.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BuscarAlumno.resx">
       <DependentUpon>BuscarAlumno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarAlumno.resx">
+      <DependentUpon>EditarAlumno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
