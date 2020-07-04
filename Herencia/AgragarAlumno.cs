@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Herencia
@@ -22,77 +15,19 @@ namespace Herencia
 
         private void btnAgregarA_Click(object sender, EventArgs e)
         {
+            Alumno alumno = new Alumno
+            {
+                Carnet = Convert.ToInt32(txtCarnet.Text),
+                PrimerNombre = txtPrimerNombre.Text,
+                SegundoNombre = txtSegundoApellido.Text,
+                PrimerApellido = txtPrimerApellido.Text,
+                SegundoApellido = txtSegundoApellido.Text,
+                Celular = Convert.ToInt32(txtCelular.Text),
+                TelefonoCasa = Convert.ToInt32(txtTelefonoCasa.Text)
+            };
 
-        }
-
-        private void txtTelefonoCasa_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCelular_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSegundoApellido_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPrimerApellido_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtSegundoNombre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtPrimerNombre_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtCarnet_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            frmPrincipal.AgregarAlumno(alumno);
+            this.Close();
         }
     }
 }

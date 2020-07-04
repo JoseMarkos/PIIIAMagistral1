@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Herencia
 {
-    class Alumno
+    public class Alumno
     {
         public int Carnet { get; set; }
         public string PrimerNombre { get; set; }

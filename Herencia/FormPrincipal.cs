@@ -12,8 +12,11 @@ namespace Herencia
 {
     public partial class FormPrincipal : Form
     {
+        private Stack<Alumno> Pila { get; set; }
+
         public FormPrincipal()
         {
+            Pila = new Stack<Alumno>();
             InitializeComponent();
         }
 
@@ -39,6 +42,16 @@ namespace Herencia
             {
                 editar.ShowDialog();
             }
+        }
+
+        public void AgregarAlumno(Alumno alumno)
+        {
+            Pila.Push(alumno);
+            BindingSource bindingSource = new BindingSource();
+            bindingSource.DataSource = Pila;
+
+            dgvAlumnos.DataSource = bindingSource;
+            dgvAlumnos.Refresh();
         }
     }
 }

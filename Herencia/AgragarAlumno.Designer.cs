@@ -53,7 +53,6 @@
             this.label1.Size = new System.Drawing.Size(38, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Carnet";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtCarnet
             // 
@@ -61,7 +60,6 @@
             this.txtCarnet.Name = "txtCarnet";
             this.txtCarnet.Size = new System.Drawing.Size(100, 20);
             this.txtCarnet.TabIndex = 1;
-            this.txtCarnet.TextChanged += new System.EventHandler(this.txtCarnet_TextChanged);
             // 
             // txtPrimerNombre
             // 
@@ -69,7 +67,6 @@
             this.txtPrimerNombre.Name = "txtPrimerNombre";
             this.txtPrimerNombre.Size = new System.Drawing.Size(100, 20);
             this.txtPrimerNombre.TabIndex = 3;
-            this.txtPrimerNombre.TextChanged += new System.EventHandler(this.txtPrimerNombre_TextChanged);
             // 
             // label2
             // 
@@ -79,7 +76,6 @@
             this.label2.Size = new System.Drawing.Size(76, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Primer Nombre";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -89,7 +85,6 @@
             this.label3.Size = new System.Drawing.Size(90, 13);
             this.label3.TabIndex = 5;
             this.label3.Text = "Segundo Nombre";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -99,7 +94,6 @@
             this.label4.Size = new System.Drawing.Size(76, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Primer Apellido";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
@@ -109,7 +103,6 @@
             this.label5.Size = new System.Drawing.Size(90, 13);
             this.label5.TabIndex = 7;
             this.label5.Text = "Segundo Apellido";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label6
             // 
@@ -119,7 +112,6 @@
             this.label6.Size = new System.Drawing.Size(39, 13);
             this.label6.TabIndex = 8;
             this.label6.Text = "Celular";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -129,7 +121,6 @@
             this.label7.Size = new System.Drawing.Size(52, 13);
             this.label7.TabIndex = 9;
             this.label7.Text = "Tel. Casa";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // txtSegundoNombre
             // 
@@ -137,7 +128,6 @@
             this.txtSegundoNombre.Name = "txtSegundoNombre";
             this.txtSegundoNombre.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoNombre.TabIndex = 10;
-            this.txtSegundoNombre.TextChanged += new System.EventHandler(this.txtSegundoNombre_TextChanged);
             // 
             // txtPrimerApellido
             // 
@@ -145,7 +135,6 @@
             this.txtPrimerApellido.Name = "txtPrimerApellido";
             this.txtPrimerApellido.Size = new System.Drawing.Size(100, 20);
             this.txtPrimerApellido.TabIndex = 11;
-            this.txtPrimerApellido.TextChanged += new System.EventHandler(this.txtPrimerApellido_TextChanged);
             // 
             // txtSegundoApellido
             // 
@@ -153,7 +142,6 @@
             this.txtSegundoApellido.Name = "txtSegundoApellido";
             this.txtSegundoApellido.Size = new System.Drawing.Size(100, 20);
             this.txtSegundoApellido.TabIndex = 12;
-            this.txtSegundoApellido.TextChanged += new System.EventHandler(this.txtSegundoApellido_TextChanged);
             // 
             // txtCelular
             // 
@@ -161,7 +149,6 @@
             this.txtCelular.Name = "txtCelular";
             this.txtCelular.Size = new System.Drawing.Size(100, 20);
             this.txtCelular.TabIndex = 13;
-            this.txtCelular.TextChanged += new System.EventHandler(this.txtCelular_TextChanged);
             // 
             // txtTelefonoCasa
             // 
@@ -169,7 +156,6 @@
             this.txtTelefonoCasa.Name = "txtTelefonoCasa";
             this.txtTelefonoCasa.Size = new System.Drawing.Size(100, 20);
             this.txtTelefonoCasa.TabIndex = 14;
-            this.txtTelefonoCasa.TextChanged += new System.EventHandler(this.txtTelefonoCasa_TextChanged);
             // 
             // btnAgregarA
             // 
